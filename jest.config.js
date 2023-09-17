@@ -3,7 +3,7 @@ module.exports = {
 	testPathIgnorePatterns: ["/node_modules/", "/.next/"],
 	collectCoverage: true,
 	collectCoverageFrom: [
-		"src/**/*.ts(x)?",
+		"src/**/*.spec.ts(x)?",
 		"!src/app/**", // should be tested by e2e
 		"!src/lib/registry.tsx",
 		"!src/types/**",

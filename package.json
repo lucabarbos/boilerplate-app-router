@@ -5,6 +5,9 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
+		"test": "jest --passWithNoTests --maxWorkers=50%",
+		"test:watch": "jest --watch --maxWorkers=25%",
+		"test:ci": "jest --runInBand",
 		"start": "next start",
 		"lint": "next lint",
 		"prepare": "husky install"

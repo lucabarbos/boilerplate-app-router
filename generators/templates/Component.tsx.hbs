@@ -1,0 +1,15 @@
+import * as S from './styles'
+
+export type Props = {
+	{{snakeCase name}}?: string
+}
+
+export function {{pascalCase name}}({
+	{{snakeCase name}} = "{{ snakeCase name }}"
+}: Props) {
+	return (
+		<S.Wrapper>
+    	<h1>{ {{snakeCase name}} }</h1>
+  	</S.Wrapper>
+	)
+}
